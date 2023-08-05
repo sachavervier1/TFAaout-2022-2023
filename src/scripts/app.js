@@ -1,1 +1,4 @@
-console.info('Hello world');
+'use strict'
+
+import { gsap } from "gsap";
+
