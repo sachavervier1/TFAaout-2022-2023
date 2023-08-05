@@ -2,3 +2,15 @@
 
 @import 'utils/variables';
 @import 'components/type';
+@import 'components/header';
+
+body {
+    background-color: #2B2B2B;
+    color: white;
+
+    .secondcolor {
+        background-color: #232323;
+        margin: 0px 32px;
+        border-radius: 5px;
+    }
+}

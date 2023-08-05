@@ -1,0 +1,34 @@
+.topnav {
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin: 32px 205px;
+
+        li {
+            cursor: pointer;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+}
+
+.header__section {
+
+
+
+    h1 {
+        font-size: 131px;
+        line-height: 165px;
+        margin: 0;
+        margin-left: 45%;
+    }
+
+}
