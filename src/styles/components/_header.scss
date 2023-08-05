@@ -5,7 +5,7 @@
         display: flex;
         justify-content: space-between;
         padding: 0;
-        margin: 32px 205px;
+        margin: 32px 144px;
 
         li {
             cursor: pointer;
@@ -22,13 +22,53 @@
 
 .header__section {
 
+    border-radius: 5px;
+    position: absolute;
+    bottom: 5%;
+    top: 12%;
+    right: 2.5%;
+    left: 2.5%;
 
+
+    display: flex;
+    align-items: center;
+
+    img {
+        margin: 32px;
+        width: auto;
+        max-height: 834px;
+        height: 90%;
+        max-width: 575px;
+    }
 
     h1 {
         font-size: 131px;
         line-height: 165px;
         margin: 0;
-        margin-left: 45%;
+        margin-left: 61px;
+        margin-top: -7%;
+        margin-right: 31px;
+        font-family: "museo-sans", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    .header__bouton {
+        border: solid 1px white;
+        border-radius: 5px;
+        position: absolute;
+        color: white;
+        text-decoration: none;
+        width: 175px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 2%;
+        bottom: 3%;
+
+
+
     }
 
 }
