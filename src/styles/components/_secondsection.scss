@@ -1,0 +1,20 @@
+.section2 {
+    margin: 102px 32px 0px;
+    border-radius: 5px;
+    padding: 32px;
+
+}
+
+.grid__elm {
+    grid-column: 1/10;
+    margin-left: 3px;
+}
+
+.grid__eln {
+    grid-column: 10/15;
+    grid-row: 1/4;
+    margin-top: 51px;
+
+    width: 100%;
+    height: auto;
+}

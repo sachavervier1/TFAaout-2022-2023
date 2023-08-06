@@ -3,6 +3,8 @@
 @import 'utils/variables';
 @import 'components/type';
 @import 'components/header';
+@import 'components/firstsection';
+@import 'components/secondsection';
 
 body {
     background-color: #2B2B2B;
@@ -15,4 +17,32 @@ body {
     .secondcolor {
         background-color: #232323;
     }
+
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 0px repeat(12, 1fr) 0px;
+        column-gap: 32px;
+    }
+
+    .gras {
+        font-weight: 500;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: 51px;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 51px;
+        font-family: "museo-sans", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    p {
+        margin: 0;
+        margin-top: 51px;
+    }
+
 }
