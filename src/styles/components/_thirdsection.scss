@@ -1,0 +1,42 @@
+.grid__elo {
+    grid-column: 2/10;
+}
+
+.grid__elp {
+    grid-column: 2/8;
+    height: fit-content;
+}
+
+.grid__elq {
+    grid-column: 8/14;
+    margin-top: 51px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.grid__elr {
+    grid-column: 2/8;
+    padding: 20px;
+    margin-top: -51px;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.grid__els {
+    grid-column: 8/14;
+    margin-top: 51px;
+    grid-row: 3/5;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.grid__elt {
+    width: 100%;
+    margin-top: 51px;
+    grid-column: 2/8;
+    grid-row: 4;
+}
+
+.grid__elu {
+    grid-column: 4/12;
+}

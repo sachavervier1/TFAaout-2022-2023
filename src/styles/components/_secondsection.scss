@@ -14,7 +14,10 @@
     grid-column: 10/15;
     grid-row: 1/4;
     margin-top: 51px;
-
     width: 100%;
-    height: auto;
+    max-height: 400px;
+}
+
+.specialh2 {
+    padding-top: 0;
 }
