@@ -1,0 +1,16 @@
+.foot {
+    border-top: solid 1px white;
+    margin-top: 51px;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 144px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}

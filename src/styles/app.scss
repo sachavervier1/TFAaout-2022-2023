@@ -6,11 +6,14 @@
 @import 'components/firstsection';
 @import 'components/secondsection';
 @import 'components/thirdsection';
+@import 'components/fourthsection';
+@import 'components/footer';
 
 body {
     background-color: #2B2B2B;
     color: white;
     font-size: 20px;
+    line-height: 32px;
     font-family: "museo-sans", sans-serif;
     font-weight: 100;
     font-style: normal;

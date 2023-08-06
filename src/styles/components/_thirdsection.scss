@@ -27,16 +27,13 @@
     margin-top: 51px;
     grid-row: 3/5;
     padding: 20px;
+    height: fit-content;
     border-radius: 5px;
 }
 
-.grid__elt {
-    width: 100%;
-    margin-top: 51px;
-    grid-column: 2/8;
-    grid-row: 4;
-}
 
 .grid__elu {
-    grid-column: 4/12;
+    grid-column: 2/8;
+    font-weight: 500;
+
 }
