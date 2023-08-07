@@ -9,6 +9,10 @@
 @import 'components/fourthsection';
 @import 'components/footer';
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #2B2B2B;
     color: white;
