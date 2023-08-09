@@ -14,7 +14,36 @@
     grid-column: 8/14;
 }
 
+.grid__eld {
+    grid-column: 2/8;
+    padding: 20px;
+    margin-top: 51px;
+    border-radius: 5px;
+}
+
+.grid__ele {
+    grid-column: 8/14;
+    padding: 20px;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.grid__elf {
+    grid-column: 2/8;
+    padding: 20px;
+    margin-top: 51px;
+    border-radius: 5px;
+}
+
+.grid__elg {
+    grid-column: 8/14;
+    padding: 20px;
+    margin-top: -51px;
+    border-radius: 5px;
+    height: fit-content;
+}
+
 .grid__ell {
     grid-column: 4/12;
-    grid-row: 3;
+    grid-row: 5;
 }

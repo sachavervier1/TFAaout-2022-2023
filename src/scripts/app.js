@@ -2,7 +2,7 @@
 
 import { gsap } from "gsap";
 
-gsap.from(".topnav__el", { y: 50, opacity: 0, delay: 1 });
+gsap.from(".topnav__el", { y: 20, opacity: 0, delay: 1 });
 gsap.to(".topnav__el", { y: 0, opacity: 1, duration: 1, delay: 1 });
 
 gsap.from("h1", { x: 100, opacity: 0, delay: 1.5 });
