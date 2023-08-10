@@ -90,9 +90,12 @@
         align-items: center;
         right: 2%;
         bottom: 3%;
+        transition: all 0.5s;
 
+        &:hover {
+            transform: scale(0.95);
 
-
+        }
     }
 
 }
