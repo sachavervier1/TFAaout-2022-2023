@@ -29,3 +29,15 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
+
+const menuburger = document.querySelector(".topnav__burger");
+const menu = document.querySelector(".topnav");
+const menuburgeroff = document.querySelector(".topnav__liste");
+menuburger.addEventListener("click", function () {
+    menu.classList.toggle("topnav--open");
+});
+
+menuburgeroff.addEventListener("click", function () {
+    menu.classList.remove("topnav--open")
+});

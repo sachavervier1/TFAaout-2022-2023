@@ -17,8 +17,8 @@ html {
 body {
     background-color: #2B2B2B;
     color: white;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 29px;
     font-family: "museo-sans", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -27,37 +27,29 @@ body {
         background-color: #232323;
     }
 
-    .gridcontainer {
-        display: grid;
-        grid-template-columns: 0px repeat(12, 1fr) 0px;
-        column-gap: 32px;
-    }
-
     .gras {
         font-weight: 500;
-        text-align: center;
-        max-width: 800px;
-        margin: 0 auto;
-        margin-top: 51px;
+        margin-top: 29px;
     }
 
     h2 {
         margin: 0;
-        padding-top: 102px;
-        font-size: 51px;
+        padding-top: 58px;
+        font-size: 37px;
         font-family: "museo-sans", sans-serif;
         font-weight: 100;
         font-style: normal;
+        line-height: 40px;
     }
 
     p {
         margin: 0;
-        margin-top: 51px;
+        margin-top: 29px;
     }
 
     h3 {
         margin: 0;
-        font-size: 32px;
+        font-size: 28.5px;
         font-family: "museo-sans", sans-serif;
         font-weight: 100;
         font-style: normal;
@@ -65,11 +57,11 @@ body {
 
     .sous-titre {
         font-size: 22px;
-        font-weight: 300;
+        font-weight: 500;
     }
 
     .bulle-info {
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .reveal {
@@ -127,6 +119,126 @@ body {
             transform: translateX(0);
             opacity: 1;
         }
+    }
+}
+
+@media (min-width: 1280px) {
+
+    body {
+        background-color: #2B2B2B;
+        color: white;
+        font-size: 20px;
+        line-height: 32px;
+        font-family: "museo-sans", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+
+        .secondcolor {
+            background-color: #232323;
+        }
+
+        .gridcontainer {
+            display: grid;
+            grid-template-columns: 0px repeat(12, 1fr) 0px;
+            column-gap: 32px;
+        }
+
+        .gras {
+            font-weight: 500;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            margin-top: 51px;
+        }
+
+        h2 {
+            margin: 0;
+            padding-top: 102px;
+            font-size: 51px;
+            font-family: "museo-sans", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        p {
+            margin: 0;
+            margin-top: 51px;
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 32px;
+            font-family: "museo-sans", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        .sous-titre {
+            font-size: 22px;
+            font-weight: 300;
+        }
+
+        .bulle-info {
+            margin-top: 20px;
+        }
+
+        .reveal {
+            position: relative;
+            opacity: 0;
+        }
+
+        .reveal.active {
+            opacity: 1;
+        }
+
+        .active.fade-bottom {
+            animation: fade-bottom 1s ease-in;
+        }
+
+        .active.fade-left {
+            animation: fade-left 1s ease-in;
+        }
+
+        .active.fade-right {
+            animation: fade-right 1s ease-in;
+        }
+
+        @keyframes fade-bottom {
+            0% {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fade-left {
+            0% {
+                transform: translateX(-100px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fade-right {
+            0% {
+                transform: translateX(100px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
     }
 
 }
