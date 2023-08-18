@@ -1,5 +1,5 @@
 .foot {
-    border-top: solid 1px white;
+    border-top: solid 1px black;
     margin-top: 29px;
 
     ul {
@@ -11,7 +11,7 @@
     }
 
     a {
-        color: white;
+        color: black;
         text-decoration: none;
     }
 }
@@ -19,7 +19,7 @@
 @media(min-width:1280px) {
 
     .foot {
-        border-top: solid 1px white;
+        border-top: solid 1px black;
         margin-top: 51px;
 
         ul {
@@ -30,7 +30,7 @@
         }
 
         a {
-            color: white;
+            color: black;
             text-decoration: none;
         }
 
@@ -45,7 +45,7 @@
                 height: 2px;
                 bottom: 0;
                 margin: -5px 0;
-                background-color: white;
+                background-color: black;
                 visibility: hidden;
                 transform: scaleX(0);
                 transition: all 0.4s ease-in-out 0s;
