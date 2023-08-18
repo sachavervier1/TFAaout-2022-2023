@@ -40,15 +40,19 @@ body {
         font-weight: 100;
         font-style: normal;
         line-height: 40px;
+        margin-left: 18px;
     }
 
     p {
         margin: 0;
         margin-top: 29px;
+        margin-left: 18px;
+        margin-right: 18px;
     }
 
     h3 {
         margin: 0;
+        padding: 10px 10px 0px;
         font-size: 28.5px;
         font-family: "museo-sans", sans-serif;
         font-weight: 100;
@@ -56,18 +60,20 @@ body {
     }
 
     .sous-titre {
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 500;
     }
 
     .bulle-info {
         margin-top: 15px;
+        margin: 10px;
     }
 
     .reveal {
         position: relative;
         opacity: 0;
     }
+
 
     .reveal.active {
         opacity: 1;
