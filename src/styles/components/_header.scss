@@ -199,3 +199,23 @@
     }
 
 }
+
+@media (min-width: 1500px) {
+
+    .header__section {
+        h1 {
+            font-size: 160px;
+            line-height: 160px;
+        }
+    }
+}
+
+@media (min-width: 1900px) {
+
+    .header__section {
+        h1 {
+            font-size: 180px;
+            line-height: 180px;
+        }
+    }
+}
